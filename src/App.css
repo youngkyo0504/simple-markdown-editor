@@ -12,7 +12,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+html {
+  background-color: #2f3542;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +24,20 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+*::-webkit-scrollbr {
+  width: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #2f3542;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+}
+*::-webkit-scrollbar-track {
+  background-color: grey;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 5px white;
 }
 
 .App-link {
