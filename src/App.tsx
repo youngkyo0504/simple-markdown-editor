@@ -8,16 +8,11 @@ import CodeMirror, {
   StateEffect,
   StateField,
 } from "@uiw/react-codemirror";
-import { markdown } from "@codemirror/lang-markdown";
-import "./markdown.css";
-import { languages } from "@codemirror/language-data";
-import {
-  autocompletion,
-  CompletionContext,
-  CompletionSource,
-} from "@codemirror/autocomplete";
-import { keymap } from "@uiw/react-codemirror";
+
 import MyList from "./List";
+import { markdown } from "@codemirror/lang-markdown";
+import { languages } from "@codemirror/language-data";
+import "./markdown.css";
 
 const initialValue = ``;
 const MARKDOWN_KEY = "markdown_";
